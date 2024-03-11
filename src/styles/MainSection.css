@@ -1,0 +1,83 @@
+@import './colors.css';
+
+.content{
+    padding: 7%;
+}
+h1{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.title{
+    font-weight: 520;
+    padding: 0;
+    margin-left: 1%;
+}
+
+.description-header{
+    line-height: 64px;
+    font-size: 64px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.content-box{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 32px;
+    background-color: var(--background-color);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    margin-bottom: 12px;
+    font-weight: 520;
+    font-size: 18px;
+    width: 80%;
+}
+
+.btn-default{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: var(--button-text-color);
+    background-color: var(--primary-color);
+    border-style: none;
+    border-radius: 24px;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 12vw;
+    min-height: 32px;
+    height: 3vh;
+    box-shadow: 0px 0px 35px -1px var(--shadow-color);
+}
+
+.image-box{
+    width: 100%;
+    display: flex;
+    margin-bottom: 4%;
+    align-items: rigth;
+    justify-content: right;
+    align-content: rigth;
+}
+
+.profile-image{
+    overflow: hidden;
+    position: relative;
+    margin: 7% 5% 0 0;
+    border-style: none;
+    border-radius: 50%;
+    min-width: 300px;
+    min-height: 300px;
+    width: 25vw;
+    height: 25vw;
+    box-shadow: 0px 0px 35px 4px var(--shadow-color);
+}
+
+
+

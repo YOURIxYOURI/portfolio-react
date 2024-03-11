@@ -1,0 +1,24 @@
+/* Definicja zmiennych kolorów dla preferowanego schematu kolorów ciemnego */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1a1a1a;
+        --secondary-background-color: #0f0f0f;
+        --text-color: #f0eded;
+        --shadow-color: #d4d4d4d3;
+        --button-text-color: #0e0d0d;
+        --primary-color: #eed812;
+    }
+  }
+  
+  /* Definicja zmiennych kolorów dla preferowanego schematu kolorów jasnego */
+  @media (prefers-color-scheme: light) {
+    :root {
+        --background-color: #f5f5f5;
+        --secondary-background-color: #ffffff;
+        --text-color: #0e0d0d;
+        --shadow-color: #000000af;
+        --button-text-color: #f0eded;
+        --primary-color: #50009b;
+    }
+  }
+  
