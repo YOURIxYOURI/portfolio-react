@@ -1,0 +1,28 @@
+{
+    "skills": [
+        {
+          "id": "1",
+          "src": "/image/react.svg",
+          "title": "Front-End",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+          "id": "2",
+          "src": "/image/c-sharp.svg",
+          "title": "Back-End",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+          "id": "3",
+          "src": "/image/layout.svg",
+          "title": "UI & UX",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        },
+        {
+          "id": "4",
+          "src": "/image/typescript.svg",
+          "title": "Mobile dev",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        }
+    ]
+}
